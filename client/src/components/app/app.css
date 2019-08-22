@@ -1,0 +1,48 @@
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body{ 
+	font-family: 'Tahoma', sans-serif;
+	color: #fff;
+}
+
+#root {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+}
+
+
+h1 {
+	margin: 0;
+}
+
+.item-food {
+	font-size: 18px;
+	color:	#e90052; 
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #38003c;
+}
+
+.react {
+	color: #00ff85;
+}
